@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --brand-green: hsl(170, 100%, 26%);
+  --green-light: hsl(180, 14%, 97%);
+}
+
+/*===== Geral ======*/
+body {
+  background-color: var(--green-light);
+  font-size: 1.4rem;
+}
+ul li a {
+  color: var(--brand-green);
+  list-style-type: none;
+  margin: auto;
+  padding: auto;
+}
